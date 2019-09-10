@@ -36,7 +36,7 @@
 
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/button1"
             style="@style/estiloBotoesOutros"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -54,7 +54,7 @@
             android:textSize="@dimen/tamanho_texto_botoes" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button3"
             style="@style/estiloBotoesOutros"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -63,12 +63,21 @@
             android:textSize="@dimen/tamanho_texto_botoes" />
 
         <Button
-            android:id="@+id/button"
-            style="@style/estiloBotoesperacoes"
+            android:id="@+id/button4"
+            style="@style/estiloBotoesOutros"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="/"
+            android:textSize="@dimen/tamanho_texto_botoes" />
+
+        <Button
+            android:id="@+id/button22"
+            style="@style/estiloBotoesperacoes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="dell"
             android:textSize="@dimen/tamanho_texto_botoes" />
     </LinearLayout>
 
